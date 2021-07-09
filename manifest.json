@@ -1,0 +1,26 @@
+{
+    "name": "Topic formatting",
+    "description": "Helper for hyperskill topics creation",
+    "version": "0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "format.html",
+        "default_icon": "feather.png"
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F",
+                "mac": "MacCtrl+Shift+F"
+            },
+            "description": "Format topic on Stepik like it looks on HyperSkill"
+        }
+    },
+    "permissions": [
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://stepik.org/"
+    ]
+}
